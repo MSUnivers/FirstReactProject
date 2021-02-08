@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import Nav from './Components/Nav';
-import MSContainer from './Components/MSContainer';
-import Foot from './Components/Foot';
-function App() {
-  return (
+import React, { Component } from 'react';
 
-    <body>
-      <header>
-        <Nav />
-      </header>
-      <main>
-        <MSContainer />
-      </main>
-      <footer>
-        <Foot />
-      </footer>
-
-    </body>
-
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        
+      </div>
+    );
+  }
 }
 
 export default App;
