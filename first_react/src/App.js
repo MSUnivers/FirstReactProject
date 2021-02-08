@@ -1,24 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Nav from './Components/Nav';
+import MS from './Components/MS';
+import Foot from './Components/Foot';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+    <body>
+      <header>
+        <Nav />
       </header>
-    </div>
+      <main>
+        <MS title="maroua" description="fasdfklasfaklsjdfakjsf" />
+        <MS title="nejib" description="fasdfklasfaklsjdfakjsf" />
+        <MS title="haroun" description="sgzfgjhsgdjfgjsdf" />
+      </main>
+      <footer>
+        <Foot />
+      </footer>
+
+    </body>
+
   );
 }
 
