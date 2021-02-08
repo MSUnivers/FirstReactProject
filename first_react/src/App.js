@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Nav from './Components/Nav';
-import MS from './Components/MS';
+import MSContainer from './Components/MSContainer';
 import Foot from './Components/Foot';
 function App() {
   return (
@@ -11,9 +11,7 @@ function App() {
         <Nav />
       </header>
       <main>
-        <MS title="maroua" description="fasdfklasfaklsjdfakjsf" />
-        <MS title="nejib" description="fasdfklasfaklsjdfakjsf" />
-        <MS title="haroun" description="sgzfgjhsgdjfgjsdf" />
+        <MSContainer />
       </main>
       <footer>
         <Foot />
